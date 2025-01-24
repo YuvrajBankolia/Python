@@ -1,0 +1,5 @@
+print("hello")
+print(5)
+print("bye" , 6)
+print(5*3 )
+print ("hey" , 6, 8, sep="-" , end="009" )
