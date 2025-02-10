@@ -1,2 +1,2 @@
-e"
-# b="uv"
+text =f.read()
+print(text
