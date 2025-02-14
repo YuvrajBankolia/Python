@@ -1,15 +1,16 @@
-class employee:
-    def __init__(self , name , id):
-        self.name = name
-        self.id = id
-    def showDetails(self):
-        print(f"The name of the Employee :{self.id} is {self.name}")
-class PRogrammer(employee):
-    def showLanguage(self):
-        print("the default language is Python ")
-e1 = employee("YUvraj" , 200)
-e1.showDetails()
-e2 = PRogrammer("uuuuuuu" , 1)
-e2.showLanguage()
-e1 = employee("uv" , 2000)
-e1.showDetails()
+import random
+# print(random.randint(0,10000))
+
+def check (comp , user):
+    if comp ==user:
+        return 0
+    if(comp == 0 and user == 1):
+        return -1
+    if(comp == 1 and user == 2):
+        return -1
+    if(comp == 2 and user == 0):
+        return -1
+    return 1
+comp = random.randint(0,2)
+user = int(input("0 for snake , 1 for the awter and 2 for the gun"))
+    
